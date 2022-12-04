@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Belotta;
+    src: url(./fonts/Bellota\ Text\ Regular.ttf);
+}
+
+body {
+    font-family: Belotta!important;
+}
+
+.shopping {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.description {
+    font-size: xx-large
+}
+
+.price {
+    font-size: larger;
+}
+
+.btn-success {
+    background-color: #A437DB!important;
+}
+
+.submit {
+    margin-top: 20px;
+}
+
+.product_image {
+    max-width:80%;
+    height: 300px;
+    position: relative;
+    object-fit: contain;
+    text-align: center;
+}
+
+.item_card {
+    height: 500px;
+    position: relative;
+    text-align: center;
+}
+
+.item_card img.hover-image {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    text-align: center;
+    transition: opacity .7s;
+}
+
+.item_card:hover img.hover-image {
+    display: inline;
+    height: 300px;
+    width: 80%;
+    max-height: 300px;
+    object-fit: inherit;
+    text-align: center;
+    margin-left: 40px;
+    opacity: 1;
+}
+
+.header {
+    align-items: center;
+    background-color: #A437DB;
+    font-family: Belotta;
+    border-bottom: 2px solid black;
+}
+
+.motto-section {
+    position: relative;
+    font-size: 4rem;
+}
+
+.motto{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.motto h3 {
+    font-size: 2.5rem;
+}
+
+.header img{
+    max-height: 150px;
+    width: auto;
+    padding: 20px 40px;
+}
+
+.input-message {
+    margin-top: 35px;
+}
+
+.footer {
+    padding: 20px 0px;
+    border-top: 2px solid black;
+    display: flex;
+}
+
+.footer_image img{
+    width: 500px;
+    object-fit: cover;
+    display: flex;
+    margin: auto;
+}
+
+.contact_us {
+    padding-left: 20px;
+}
+.search-section {
+position: relative;
+}
+
+.topnav {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.topnav input[type=text] {
+    width: 80%;
+    border: none;
+    font-size: 17px;
+    height: 40px;
+    border-radius: 15px;
+}
